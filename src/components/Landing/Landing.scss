@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+    &__text {
+        background: rgb(255,224,226);
+        background: radial-gradient(circle, rgba(255,224,226,1) 0%, rgba(237,255,215,1) 100%);
+        position: relative;
+        margin: auto;
+        translate: 5rem;
+        border-radius: 1rem;
+        z-index: 2;
+        text-align: left;
+        padding: 2rem 2rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &-slogan {
+            font-size: 3.55rem;
+            font-style: italic;
+            padding-bottom: 0.5rem;
+        }
+        &-description {
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.5rem;
+        }
+    }
+    &__model {
+        translate: -5rem;
+        border-radius: 1rem;
+        background: none;
+        
+        &-img {
+            width: 100%;
+            max-width: 250rem;
+            border-radius: 1rem;
+            height: auto;
+            display: block;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+    }
+}
