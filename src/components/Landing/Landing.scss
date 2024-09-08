@@ -1,4 +1,8 @@
 .main {
+    margin: 2rem 8rem;
+}
+
+.hero {
     display: flex;
     justify-content: center;
     margin: 4rem 0;
@@ -6,7 +10,6 @@
     &__container {
         display: flex;
         justify-content: space-between;
-        width: 85%;
     }
     &__text {
         background: rgb(255,224,226);

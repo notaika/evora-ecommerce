@@ -1,15 +1,23 @@
 .navbar {
-    background-color: #dbe9b72d;
     display: flex;
     justify-content: space-evenly;
-    padding: 0.25rem 7rem;
+    padding: 0.25rem;
+    margin: 0 8rem;
+
     &__link {
-        color: black;
+        color: rgb(59, 59, 59);
         text-decoration: none;
+        width: 100%;
+        text-align: center;
+        padding: 0.5rem 0;
+        transition: ease-out 0.3s;
 
         &:hover {
-            color: rgb(168, 190, 168);
-            text-decoration: underline;
+            color: rgb(0, 0, 0);
+            background-color: #dbe9b761;
+            transition: ease-out 0.3s;
+            transform: scale(1.1);
+            font-weight: 700;
         }
     }
 }
