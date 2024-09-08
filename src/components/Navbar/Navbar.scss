@@ -1,0 +1,15 @@
+.navbar {
+    background-color: rgb(116, 169, 116);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.25rem 7rem;
+    &__link {
+        color: rgb(239, 239, 239);
+        text-decoration: none;
+
+        &:hover {
+            color: rgb(168, 190, 168);
+            text-decoration: underline;
+        }
+    }
+}
