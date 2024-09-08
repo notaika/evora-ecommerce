@@ -1,0 +1,28 @@
+@use '../../styles/partials/typography';
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__banner {
+        background-color: #F4DADA;
+        padding: 0.75rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    &__container {
+        padding: 1.5rem 0 1rem 0;
+        background-color: #dbe9b72d;
+        width: 100%;
+        text-align: center;
+    }
+    &__title {
+        font-style: italic;
+        &-link {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

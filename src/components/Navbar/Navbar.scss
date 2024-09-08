@@ -1,10 +1,10 @@
 .navbar {
-    background-color: rgb(116, 169, 116);
+    background-color: #dbe9b72d;
     display: flex;
     justify-content: space-evenly;
     padding: 0.25rem 7rem;
     &__link {
-        color: rgb(239, 239, 239);
+        color: black;
         text-decoration: none;
 
         &:hover {
